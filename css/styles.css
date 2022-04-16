@@ -9,23 +9,6 @@ h1 {
   margin-top: 0;
 }
 
-.part_1 {
-  background-color: #F3E9DD;
-  position: relative;
-  padding-top: 100px;
-}
-
-.part_2 {
-    background-color: #F4FCD9;
-}
-
-.part_3 {
-  background-color: #DAB88B;
-}
-
-.part_4 {
-  background-color: #F7E2E2;
-}
 
 .top-cloud {
   position: absolute;
