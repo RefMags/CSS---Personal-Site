@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  text-align: center;
   font-family: verdana, sans-serif;
+  background-color: azure;
 }
 
 h1 {
@@ -10,18 +10,27 @@ h1 {
 }
 
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
+.body-wrapper {
+  margin: 1rem;
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 190px;
 }
 
 .bottom-container {
   background-color: #66BFBF;
+}
+
+.grid-container {
+  display: grid;
+  margin-right: inherit;
+  position: relative;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+}
+
+.navbar-expand {
+  display: flex;
+}
+
+.links {
+  display: flex;
 }
