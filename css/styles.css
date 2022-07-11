@@ -21,7 +21,6 @@ h1 {
 .navbar-expand {
   display: flex;
   align-items: center;
-  padding: 2em 0;
   justify-content: space-between;
 }
 
