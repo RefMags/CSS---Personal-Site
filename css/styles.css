@@ -5,32 +5,47 @@ body {
 }
 
 h1 {
-  color: #66BFBF;
-  margin-top: 0;
+  font-size: 1em;
+  font-weight: normal;
+  width: fit-content;
+  display: inline-block;
+  margin: 0;
 }
 
-
 .body-wrapper {
-  margin: 1rem;
+  margin: auto;
+  width: 95%;
+  max-width: 1600px;
+}
 
+.navbar-expand {
+  display: flex;
+  align-items: center;
+  padding: 2em 0;
+  justify-content: space-between;
 }
 
 .bottom-container {
   background-color: #66BFBF;
 }
 
-.grid-container {
-  display: grid;
-  margin-right: inherit;
-  position: relative;
-  grid-template-columns: auto auto;
-  grid-gap: 0px;
+.navbar-brand {
+  text-decoration: none;
 }
 
-.navbar-expand {
+.nav-links {
   display: flex;
 }
 
 .links {
   display: flex;
+}
+
+.link {
+  display: block;
+}
+
+
+.site-title {
+  flex: 0px;
 }
