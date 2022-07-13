@@ -1,48 +1,42 @@
 body {
   margin: 0;
-  font-family: verdana, sans-serif;
+  font-family: 'Merriweather', serif;
   background-color: azure;
   text-align: center;
 }
 
 h1 {
-  font-size: 1em;
-  font-weight: normal;
-  width: fit-content;
-  display: inline-block;
-  margin: 0;
+  font-family: 'Sacramento', cursive;
 }
 
-.body-wrapper {
-  margin: auto;
-  width: 95%;
-  max-width: 1600px;
+h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-expand {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  position: relative;
 }
 
 .bottom-container {
   background-color: #66BFBF;
 }
 
-.navbar-brand {
-  text-decoration: none;
+.dev {
+  text-decoration: underline;
 }
 
-
-.links {
-  display: flex;
+.top-cloud {
+  position: absolute;
+  right: 620px;
+  top: 15px;
 }
 
-.link {
-  display: block;
-}
-
-
-.site-title {
-  flex: 0px;
+.bottom-cloud {
+  position: absolute;
+  left: 620px;
+  top: 150px;
 }
